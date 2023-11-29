@@ -54,17 +54,33 @@
       </section>
 
 
-<section id="saldi" class="p-4">
-    <div class="container">
-      <h4>Saldi</h4> 
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-6">
+            <h4 class="pb-2">Saldi</h4>
+          </div>
+          <div class="col-6">
+            <p
+              class="text-info text-end"
+              data-bs-toggle="collapse"
+              href="#saldi"
+              role="button"
+              aria-expanded="false"
+              aria-controls="saldi"
+            >
+              Nascondi sezione
+            </p>
+          </div>
+        </div>
+    <section id="saldi">
+      <div class="row row-cols-3 row-cols-md-2 row-cols-lg-4 g-4 " id="hideableSection">
         <div class="col">
           <div class="card border-info border-2">
             <img src="./img.jpg" class="card-img-top" alt="Destination 1">
             <div class="card-body">
               <h5 class="card-title">Titolo</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae dolorum maxime itaque amet veritatis sunt repudiandae consequatur alias pariatur asperiores.</p>
-              <button class="btn btn-info">Dettagli</button>
+              <button class="btn btn-info">Prenota</button>
             </div>
           </div>
         </div>
@@ -75,20 +91,20 @@
             <div class="card-body">
               <h5 class="card-title">Titolo</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae dolorum maxime itaque amet veritatis sunt repudiandae consequatur alias pariatur asperiores.</p>
-              <button class="btn btn-info">Dettagli</button>
+              <button class="btn btn-info">Prenota</button>
             </div>
           </div>
         </div>
   
         <div class="col d-none d-md-block">
-          <div class="card border-info border-2">
+            <div class="card border-info border-2">
             <img src="./img.jpg" class="card-img-top" alt="Destination 3">
             <div class="card-body">
-              <h5 class="card-title">Titolo</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae dolorum maxime itaque amet veritatis sunt repudiandae consequatur alias pariatur asperiores.</p>
-              <button class="btn btn-info">Dettagli</button>
+                <h5 class="card-title">Titolo</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae dolorum maxime itaque amet veritatis sunt repudiandae consequatur alias pariatur asperiores.</p>
+                <button class="btn btn-info">Prenota</button>
             </div>
-          </div>
+            </div>
         </div>
   
         <div class="col">
@@ -97,7 +113,7 @@
             <div class="card-body">
               <h5 class="card-title">Titolo</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae dolorum maxime itaque amet veritatis sunt repudiandae consequatur alias pariatur asperiores.</p>
-              <button class="btn btn-info">Dettagli</button>
+              <button class="btn btn-info">Prenota</button>
             </div>
           </div>
         </div>
@@ -105,37 +121,258 @@
     </div>
   </section>
 
-  <!-- Altre sezioni... -->
+<!-- Welcome Summer -->
 
-  <!-- Footer -->
-  <footer class="bg-dark text-light p-4">
-    <div class="container">
-      <!-- Informazioni dell'agenzia -->
-      <button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#contattaciModal">Contattaci</button>
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-6">
+        <h4 class="pb-2">Welcome Summer</h4>
+      </div>
+      <div class="col-6">
+        <p
+          class="text-info text-end"
+          data-bs-toggle="collapse"
+          href="#welcome-summer"
+          role="button"
+          aria-expanded="false"
+          aria-controls="welcome-summer"
+        >
+          Nascondi sezione
+        </p>
+      </div>
     </div>
-  </footer>
+    
 
-  <!-- Modale Contattaci -->
-  <div class="modal fade" id="contattaciModal" tabindex="-1" aria-labelledby="contattaciModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title bg-dark" id="contattaciModalLabel">Contattaci</h5>
-          <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <label for="emailInput" class="form-label">Email:</label>
-          <input type="email" class="form-control" id="emailInput">
-          <label for="messageInput" class="form-label">Messaggio:</label>
-          <textarea class="form-control" id="messageInput"></textarea>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary">Invia</button>
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+  <section id="welcome-summer" class="p-4">
+    <div class="show collapse-vertical">
+        <div class="row g-4 justify-content-center">
+          <div class="col-xxl-2 col-xl-4 col-md-6 col-sm-6">
+            <div class="card border-0 shadow">
+              <picture class="position-relative">
+                <img
+                  src="img2.jpg"
+                  class="card-img-top"
+                  alt="plane"
+                /><span
+                  class="position-absolute badge top-0 end-0 py-1 px-2 bg-danger text-bg-danger m-2"
+                  >HOT</span
+                >
+              </picture>
+              <div class="card-body">
+                <h5 class="card-title">Titolo</h5>
+                <p class="card-text">
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, beatae..
+                </p>
+                <a href="#" class="btn btn-info text-dark">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-2 col-xl-4 col-md-6 col-sm-6">
+            <div class="card border-0 shadow">
+              <picture class="position-relative">
+                <img
+                  src="./img2.jpg"
+                  class="card-img-top"
+                  alt="plane"
+                /><span
+                  class="position-absolute badge top-0 end-0 py-1 px-2 bg-danger text-bg-danger m-2"
+                  >HOT</span
+                >
+              </picture>
+              <div class="card-body">
+                <h5 class="card-title">Titolo</h5>
+                <p class="card-text">
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, beatae..
+                </p>
+                <a href="#" class="btn btn-info text-dark">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-2 col-xl-4 col-md-6 col-sm-6">
+            <div class="card border-0 shadow">
+              <picture class="position-relative">
+                <img
+                  src="./img2.jpg"
+                  class="card-img-top"
+                  alt="plane"
+                /><span
+                  class="position-absolute badge top-0 end-0 py-1 px-2 bg-danger text-bg-danger m-2"
+                  >HOT</span
+                >
+              </picture>
+              <div class="card-body">
+                <h5 class="card-title">Titolo</h5>
+                <p class="card-text">
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, beatae..
+                </p>
+                <a href="#" class="btn btn-info text-dark">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-2 col-xl-4 col-md-6 col-sm-6">
+            <div class="card border-0 shadow">
+              <picture class="position-relative">
+                <img
+                  src="./img2.jpg"
+                  class="card-img-top"
+                  alt="plane"
+                /><span
+                  class="position-absolute badge top-0 end-0 py-1 px-2 bg-danger text-bg-danger m-2"
+                  >HOT</span
+                >
+              </picture>
+              <div class="card-body">
+                <h5 class="card-title">Titolo</h5>
+                <p class="card-text">
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, beatae..
+                </p>
+                <a href="#" class="btn btn-info text-dark">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-2 col-xl-4 col-md-6 col-sm-6">
+            <div class="card border-0 shadow">
+              <picture class="position-relative">
+                <img
+                  src="img2.jpg"
+                  class="card-img-top"
+                  alt="plane"
+                /><span
+                  class="position-absolute badge top-0 end-0 py-1 px-2 bg-danger text-bg-danger m-2"
+                  >HOT</span
+                >
+              </picture>
+              <div class="card-body">
+                <h5 class="card-title">Titolo</h5>
+                <p class="card-text">
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, beatae..
+                </p>
+                <a href="#" class="btn btn-info text-dark">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-2 col-xl-4 col-md-6 col-sm-6">
+            <div class="card border-0 shadow">
+              <picture class="position-relative">
+                <img
+                  src="./img2.jpg"
+                  class="card-img-top"
+                  alt="plane"
+                /><span
+                  class="position-absolute badge top-0 end-0 py-1 px-2 bg-danger text-bg-danger m-2"
+                  >HOT</span
+                >
+              </picture>
+              <div class="card-body">
+                <h5 class="card-title">Titolo</h5>
+                <p class="card-text">
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, beatae..
+                </p>
+                <a href="#" class="btn btn-info text-dark">Prenota</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+</section>
+
+
+
+
+<!-- Offerta del giorno-->
+
+    <div class="container">
+      <div class="row">
+        <h4 class="pb-2">Offerta del giorno</h4>
+        <div class="col-8">
+          <img
+            src="./OrSDER2.jpg"
+            class="img-fluid rounded shadow-sm"
+            alt="beautiful trees"
+          />
+        </div>
+        <div class="col-4">
+          <h2 class="fw-light">Titolo</h2>
+          <p class="fs-6">01.06.2024-15.06.2024</p>
+          <p class="fs-5 fw-light">
+            Lorem ipsum dolor sit amet.
+          </p>
+          <span class="badge rounded-pill text-bg-dark">Best offer</span>
+        </div>
+      </div>
+    </div>
+
+<!-- Last-minute-->
+<section id="last-minute">
+    <div class="container mt-5">
+      <div class="row gx-4 justify-content-center">
+        <h4 class="pb-2">Last Minute</h4>
+        <div class="col-sm-2">
+          <img
+            src="./img2.jpg"
+            class="card-img-top rounded shadow-sm"
+            alt="plane"
+          />
+        </div>
+        <div class="col-sm-2">
+          <img
+            src="./img2.jpg"
+            class="card-img-top rounded shadow-sm"
+            alt="plane"
+          />
+        </div>
+        <div class="col-sm-2">
+          <img
+            src="./img2.jpg"
+            class="card-img-top rounded shadow-sm"
+            alt="plane"
+          />
+        </div>
+        <div class="col-sm-2">
+          <img
+            src="./img2.jpg"
+            class="card-img-top rounded shadow-sm"
+            alt="plane"
+          />
+        </div>
+        <div class="col-sm-2">
+          <img
+            src="./img2.jpg"
+            class="card-img-top rounded shadow-sm"
+            alt="plane"
+          />
+        </div>
+        <div class="col-sm-2">
+          <img
+            src="./img2.jpg"
+            class="card-img-top rounded shadow-sm"
+            alt="plane"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <h4 class="text-center pb-2">Dicono di noi</h4>
+    </div>
   </div>
+</div>
+</main>
+</section>
+
+
+<!-- Footer-->
+
+
+<footer class="py-4 bg-dark text-center">
+<button type="button" class="btn btn-outline-secondary">
+  Contattaci
+</button>
+<p class="pt-4 text-light">
+  © 2023 Snizhana Ivanova, All Rights Reserved
+</p>
+</footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 </body>
@@ -146,14 +383,7 @@
 
 
 
-5) Implementa la sezione "Welcome Summer". Qui mostrerai 6 destinazioni al tuo utente. (nessun bordo, ma stesso stile dei bottoni precedenti)
 
-In questa sezione dovranno esserci:
-
-6 card per destinazioni per linea a schermo extra large
-3 card per destinazioni per linea a schermo grande (desktop)
-2 card per destinazioni per linea a schermo medio (tablet)
-2 card per destinazioni per linea a schermo piccolo (mobile)
 
 6) Implementa la sezione "Offerta del giorno". Qui avrai:
 
