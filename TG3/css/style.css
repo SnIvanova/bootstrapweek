@@ -1,0 +1,23 @@
+body {
+  background-color: aqua;
+  margin-left: 2px;
+}
+
+main {
+  background-color: bisque;
+
+  p {
+    text-align: center;
+    color:
+    red;
+    font-size: 1.2em;
+    span {
+    font-weight: bold;
+    color: Oblack;
+    }}
+    h1 {
+    text-align: center;
+    color: Ored;
+    text-decoration: underline;
+  }
+}

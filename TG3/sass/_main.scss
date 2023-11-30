@@ -1,0 +1,22 @@
+main{
+    background-color: bisque;
+
+    p {
+        text-align: center;
+        color:
+        red;
+        font-size: 1.2em;
+        span {font-weight: bold;color: Oblack;}
+      }
+    
+        h1 {
+
+          color: red;
+          @include miaRegola();
+          text-decoration: underline;
+          }
+    }
+@mixin miaRegola {
+      text-align: center;
+      color:red;
+}

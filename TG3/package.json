@@ -1,0 +1,16 @@
+{
+  "name": "sass-app",
+  "version": "1.0.0",
+  "description": "Primo sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Snizhana Ivanova",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.69.5"
+  },
+  "devDependencies": {},
+  "keywords": []
+}

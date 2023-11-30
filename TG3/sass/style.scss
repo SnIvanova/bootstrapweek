@@ -1,0 +1,10 @@
+//Tipo booleano:
+$media: true;
+//Tipo map:
+$set-colori: (grigio: #ccc, blu: #00F);
+
+body{
+    background-color: aqua;
+    margin-left: 2px;
+}
+@import '_main';
