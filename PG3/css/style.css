@@ -227,20 +227,20 @@ body {
   border-radius: 16px;
   box-shadow: 0 16px 36px rgba(0, 0, 0, 0.3);
   border: 2px solid #b278f5;
-  animation-name: animate-from-top-uutqavg;
+  animation-name: animate-from-top-uutqbit;
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-delay: 800ms;
   width: 50%;
 }
-@keyframes animate-from-top-uutqavg {
+@keyframes animate-from-top-uutqbit {
   from {
     opacity: 0;
-    transform: translateY(100%);
+    translate: 0 100%;
   }
   to {
     opacity: 1;
-    transform: translateY(20%);
+    translate: 0 20%;
   }
 }
 .showcase-content h1 {
@@ -250,23 +250,23 @@ body {
   line-height: 0.95;
   margin-bottom: 1rem;
   color: #28064f;
-  animation-name: animate-from-top-uutqavj;
+  animation-name: animate-from-top-uutqbji;
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-delay: 300ms;
 }
-@keyframes animate-from-top-uutqavj {
+@keyframes animate-from-top-uutqbji {
   from {
     opacity: 0;
-    transform: translateY(-10px);
+    translate: 0 -10px;
   }
   to {
     opacity: 1;
-    transform: translateY(0);
+    translate: 0 0;
   }
 }
 .showcase-content p {
-  animation-name: animate-from-top-uutqavv;
+  animation-name: animate-from-top-uutqbk1;
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-delay: 600ms;
@@ -276,62 +276,62 @@ body {
   letter-spacing: 1px;
   padding-inline-end: 3rem;
 }
-@keyframes animate-from-top-uutqavv {
+@keyframes animate-from-top-uutqbk1 {
   from {
     opacity: 0;
-    transform: translateY(-10px);
+    translate: 0 -10px;
   }
   to {
     opacity: 1;
-    transform: translateY(0);
+    translate: 0 0;
   }
 }
 .showcase-content button:first-of-type {
-  animation-name: animate-from-top-uutqawa;
+  animation-name: animate-from-top-uutqbkt;
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-delay: 800ms;
 }
-@keyframes animate-from-top-uutqawa {
+@keyframes animate-from-top-uutqbkt {
   from {
     opacity: 0;
-    transform: translateY(-10px);
+    translate: 0 -10px;
   }
   to {
     opacity: 1;
-    transform: translateY(0);
+    translate: 0 0;
   }
 }
 .showcase-content button:nth-of-type(2) {
-  animation-name: animate-from-top-uutqawz;
+  animation-name: animate-from-top-uutqblf;
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-delay: 900ms;
 }
-@keyframes animate-from-top-uutqawz {
+@keyframes animate-from-top-uutqblf {
   from {
     opacity: 0;
-    transform: translateY(-10px);
+    translate: 0 -10px;
   }
   to {
     opacity: 1;
-    transform: translateY(0);
+    translate: 0 0;
   }
 }
 .showcase-content button:last-of-type {
-  animation-name: animate-from-top-uutqaxw;
+  animation-name: animate-from-top-uutqbly;
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-delay: 1000ms;
 }
-@keyframes animate-from-top-uutqaxw {
+@keyframes animate-from-top-uutqbly {
   from {
     opacity: 0;
-    transform: translateY(-10px);
+    translate: 0 -10px;
   }
   to {
     opacity: 1;
-    transform: translateY(0);
+    translate: 0 0;
   }
 }
 
@@ -344,7 +344,7 @@ main .line-4 {
   align-items: center;
 }
 main .line-4 > * {
-  width: 25%;
+  width: calc(100% / 4);
   flex-grow: 1;
 }
 main .line-4 div {
