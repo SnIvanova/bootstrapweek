@@ -1,0 +1,45 @@
+/**/
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* color.blackness() for getting a color's blackness. */
+body {
+  background-color: lightgreen;
+}
+body h1 {
+  color: #4ee44e;
+}
+body p {
+  color: white;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

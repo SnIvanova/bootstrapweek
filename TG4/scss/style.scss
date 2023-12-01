@@ -1,0 +1,58 @@
+/**/
+
+@import 'reset';
+@import 'colori';
+
+
+@mixin nomeMixin() {
+    color:white;
+    text-align: center;
+}
+@mixin paramMixin($primaryFont, $weight) {
+    font-weight: $weight;
+    font-size: $primaryFont;
+}
+
+@mixin backGMixin($prop, $value) {
+    /* #{$param} -> interpolazione Sass*/
+    background-#{$prop}: $value;
+    #{$prop}: darken($value, 50%);
+}
+
+@mixin backGMixin($prop, $value){
+    @if $prop == 'color' {
+    background-#{$prop}: $value;
+    #{$prop}: darken($value, 25%);
+}@else {
+    background-#{$prop}: $value;
+    background-repeat: no-repeat;
+    background-size: contain;
+}}
+body {
+    background-color: $light-color-green;
+    h1 {
+        color: $darken-color-green;
+    }
+    p{
+        @include nomeMixin();
+        @include paramMixin(1.3em, normal);
+    }
+}
+footer{
+    @include backGMixin("color", $darken-color-primary);
+    h2{
+        @extend h1
+    }
+    h3 {
+        @include nomeMixin();
+        @include paramMixin(2.5em, lighter );
+        text-decoration: underline;
+    }
+}
+
+div.img {
+    width: 250px;
+    height: 180px;
+    background-image: url(' .. /img/bootstrap.png');
+    background-repeat: no-repeat;
+    background-size: contain;}
