@@ -31,42 +31,6 @@ button {
   cursor: pointer;
 }
 
-.translate-10 {
-  translate: 0 10%;
-}
-
-.translate-20 {
-  translate: 0 20%;
-}
-
-.translate-25 {
-  translate: 0 25%;
-}
-
-.translate-33 {
-  translate: 0 33%;
-}
-
-.translate-50 {
-  translate: 0 50%;
-}
-
-.translate-65 {
-  translate: 0 65%;
-}
-
-.translate-75 {
-  translate: 0 75%;
-}
-
-.translate-90 {
-  translate: 0 90%;
-}
-
-.translate-100 {
-  translate: 0 100%;
-}
-
 .padding-inline-sm {
   padding-inline: 12px;
 }
@@ -163,6 +127,42 @@ button {
   margin-block: 160px;
 }
 
+.translate-10 {
+  translate: 0 10%;
+}
+
+.translate-20 {
+  translate: 0 20%;
+}
+
+.translate-25 {
+  translate: 0 25%;
+}
+
+.translate-33 {
+  translate: 0 33%;
+}
+
+.translate-50 {
+  translate: 0 50%;
+}
+
+.translate-65 {
+  translate: 0 65%;
+}
+
+.translate-75 {
+  translate: 0 75%;
+}
+
+.translate-90 {
+  translate: 0 90%;
+}
+
+.translate-100 {
+  translate: 0 100%;
+}
+
 .btn {
   display: inline-block;
   border-radius: 5px;
@@ -227,13 +227,13 @@ body {
   border-radius: 16px;
   box-shadow: 0 16px 36px rgba(0, 0, 0, 0.3);
   border: 2px solid #b278f5;
-  animation-name: animate-from-top-uutqbo2;
+  animation-name: animate-from-top-uutqbwh;
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-delay: 800ms;
   width: 50%;
 }
-@keyframes animate-from-top-uutqbo2 {
+@keyframes animate-from-top-uutqbwh {
   from {
     opacity: 0;
     translate: 0 100%;
@@ -250,12 +250,12 @@ body {
   line-height: 0.95;
   margin-bottom: 1rem;
   color: #28064f;
-  animation-name: animate-from-top-uutqbos;
+  animation-name: animate-from-top-uutqbxg;
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-delay: 300ms;
 }
-@keyframes animate-from-top-uutqbos {
+@keyframes animate-from-top-uutqbxg {
   from {
     opacity: 0;
     translate: 0 -10px;
@@ -266,7 +266,7 @@ body {
   }
 }
 .showcase-content p {
-  animation-name: animate-from-top-uutqbpi;
+  animation-name: animate-from-top-uutqbxk;
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-delay: 600ms;
@@ -276,7 +276,7 @@ body {
   letter-spacing: 1px;
   padding-inline-end: 3rem;
 }
-@keyframes animate-from-top-uutqbpi {
+@keyframes animate-from-top-uutqbxk {
   from {
     opacity: 0;
     translate: 0 -10px;
@@ -287,12 +287,12 @@ body {
   }
 }
 .showcase-content button:first-of-type {
-  animation-name: animate-from-top-uutqbqd;
+  animation-name: animate-from-top-uutqby5;
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-delay: 800ms;
 }
-@keyframes animate-from-top-uutqbqd {
+@keyframes animate-from-top-uutqby5 {
   from {
     opacity: 0;
     translate: 0 -10px;
@@ -303,12 +303,12 @@ body {
   }
 }
 .showcase-content button:nth-of-type(2) {
-  animation-name: animate-from-top-uutqbrd;
+  animation-name: animate-from-top-uutqby7;
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-delay: 900ms;
 }
-@keyframes animate-from-top-uutqbrd {
+@keyframes animate-from-top-uutqby7 {
   from {
     opacity: 0;
     translate: 0 -10px;
@@ -319,12 +319,12 @@ body {
   }
 }
 .showcase-content button:last-of-type {
-  animation-name: animate-from-top-uutqbsc;
+  animation-name: animate-from-top-uutqbyp;
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-delay: 1000ms;
 }
-@keyframes animate-from-top-uutqbsc {
+@keyframes animate-from-top-uutqbyp {
   from {
     opacity: 0;
     translate: 0 -10px;
@@ -344,7 +344,7 @@ main .line-4 {
   align-items: center;
 }
 main .line-4 > * {
-  width: calc(100% / 4);
+  width: 25%;
   flex-grow: 1;
 }
 main .line-4 div {
